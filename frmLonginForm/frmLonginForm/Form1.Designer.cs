@@ -32,7 +32,7 @@ namespace frmLonginForm
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.txtpassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -56,23 +56,23 @@ namespace frmLonginForm
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(201, 122);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
+            this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mật khẩu";
+            this.label2.Text = "Password";
             // 
-            // txtmatkhau
+            // txtpassword
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(302, 122);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(248, 22);
-            this.txtmatkhau.TabIndex = 3;
+            this.txtpassword.Location = new System.Drawing.Point(302, 122);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(248, 22);
+            this.txtpassword.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
@@ -88,7 +88,7 @@ namespace frmLonginForm
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox txtpassword;
     }
 }
 
